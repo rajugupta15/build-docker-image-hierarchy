@@ -1,0 +1,14 @@
+{
+    "base_image": {
+        "version": "1",
+        "docker-file-location": "base_image/1",
+        "dependencies": []
+    },
+    "collectd": {
+        "version": "1",
+        "docker-file-location": "collectd/1",
+        "dependencies": [
+            "base_image"
+        ]
+    }
+}
